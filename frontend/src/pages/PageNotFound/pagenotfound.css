@@ -1,0 +1,14 @@
+
+.page-not {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.goBack {
+    text-align: center;
+  margin-top: 15px;
+}

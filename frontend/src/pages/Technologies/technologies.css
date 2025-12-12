@@ -1,0 +1,90 @@
+.technology_section h1 {
+  font-size: 3em;
+  margin: 0 0 0.5em 0;
+}
+
+.tech-content {
+  /* font-size: 20px; */
+  font-size: 1.2em;
+  color: grey;
+  line-height: 1.5;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.tech-cards {
+  margin: 5em 0em 2em 0em;
+  /* margin: 5em 0em; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+
+.card-details {
+  border: 1px solid transparent;
+  /* padding: 25px; */
+  /* width: 33%; */
+  display: flex;
+  gap: 1em;
+  align-items: start;
+  padding: 1em;
+
+  /* padding: 1em 2em; */
+}
+
+.card-img {
+  /* position: relative; */
+  /* bottom: 2px; */
+  width: 30px;
+}
+
+.card-point {
+  font-size: 12px;
+  /* border: 1px solid gray; */
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  /* border-radius: 25px; */
+  /* background-color: lightgray; */
+}
+
+.card-heading {
+  /* margin: 10px 0px;
+  font-size: 23px; */
+  margin: 12px 0px;
+  font-size: 18px;
+}
+
+.card-content-text {
+  /* font-size: 14px;
+  color: gray; */
+
+  line-height: 1.5;
+  font-size: 0.9em;
+  color: gray;
+}
+
+.card_image {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  /* border: 1px solid gray;
+  padding: 7px;
+  position: relative;
+  bottom: 3px;
+  border-radius: 15px;
+  background-color: lightgray; */
+
+  /* width: 3em; */
+  /* height: 3em; */
+  /* border: 0.2px solid grey; */
+  background-color: #f5f5f5;
+  padding: 11px;
+  border-radius: 10px;
+}
+
+.card-details:hover {
+  border: 1px solid gray;
+  border-radius: 10px;
+  /* cursor: pointer; */
+}

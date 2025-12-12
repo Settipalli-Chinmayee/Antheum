@@ -1,0 +1,63 @@
+.vision-container {
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.vision-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+  /* gap: 1em; */
+}
+
+.vision-heading {
+  font-size: 38px;
+  margin: 22px 0px;
+}
+
+.vision-highlights {
+  color: gray;
+  font-weight: 600;
+}
+
+.vision-text {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.5;
+  color: gray;
+}
+
+.vision-card {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+
+.cardOne {
+  text-align: center;
+  color: grey;
+  line-height: 1.5;
+}
+
+.vision-card-heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 10px 0px;
+  color: black;
+}
+
+.vision_heading_ing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vision_heading_ing img {
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
