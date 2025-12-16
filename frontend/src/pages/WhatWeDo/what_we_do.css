@@ -3,10 +3,32 @@
   /* background-color: aqua; */
 }
 
+@media (max-width: 468px) {
+  .content_first  {
+    max-width: 21em;
+  }
+}
 
 .content_first h1 {
   font-size: 3em;
   margin: 0 0 0.6em 0;
+  margin-top: 3em;
+}
+
+@media (max-width: 468px) {
+  .content_first h1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 768px) {
+  .content_first h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .content_first h1 {
+    font-size: 1.5em;
+  }
 }
 
 .content_first p {
@@ -15,6 +37,22 @@
   margin: 0 0 1.3em 0;
   letter-spacing: 0.2px;
   color: gray;
+}
+
+@media (max-width: 468px) {
+  .content_first p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .content_first p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .content_first p {
+    font-size: 18px;
+  }
 }
 
 .bold_text {

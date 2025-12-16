@@ -1,5 +1,7 @@
 .footer_container {
   padding: 2em;
+  max-width: 1200px;
+  margin: 0px auto;
 }
 
 .footer_container_top {
@@ -15,7 +17,7 @@
   /* padding: 1em; */
   border-radius: 10px;
   margin: 5em 0em 0em 0em;
-  height: 20em;
+  /* height: 20em; */
   /* height: 10em; */
 }
 

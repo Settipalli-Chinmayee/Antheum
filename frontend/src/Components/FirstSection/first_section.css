@@ -1,5 +1,5 @@
 .first_section {
-  /* margin-top: 8%; */
+  margin-bottom: 5em;
 }
 
 .riskText {
@@ -19,6 +19,11 @@
   .main-text {
     width: 80%;
   }
+}
+
+.headingOne {
+  font-size: 64px;
+  margin: 30px 0px;
 }
 
 @media (max-width: 468px) {
@@ -41,9 +46,20 @@
   width: 60%;
 }
 
-.headingOne {
-  font-size: 64px;
-  margin: 30px 0px;
+@media (max-width: 468px) {
+  .main-text {
+    width: 25%;
+  }
+}
+@media (min-width: 468px) and (max-width: 768px) {
+  .main-text {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .main-text {
+    width: 70%;
+  }
 }
 
 .subHeadingOne {
@@ -62,7 +78,8 @@
 }
 
 .btnOne {
-  padding: 10px 30px;
+  padding: 10px;
+  /* padding: 10px 30px; */
   border: 1px solid gray;
   background-color: gray;
   color: white;
@@ -73,6 +90,7 @@
 @media (max-width: 468px) {
   .first_section_btn {
     font-size: 12px !important;
+    display: block;
   }
 }
 @media (min-width: 468px) and (max-width: 768px) {
@@ -80,7 +98,6 @@
     font-size: 14px !important;
   }
 }
-
 
 @media (max-width: 468px) {
   .subHeadingOne,
@@ -104,16 +121,21 @@
   background-color: gray;
   color: black;
   cursor: pointer;
-
 }
 
 .btnTwo {
   background-color: white;
   color: black;
-  padding: 10px 5px;
+  padding: 10px;
   border: 1px solid gray;
   margin-right: 10px;
   border-radius: 5px;
+}
+
+@media (max-width: 468px) {
+  .btnTwo {
+    margin-top: 15px;
+  }
 }
 
 .advantagesList {
@@ -127,11 +149,32 @@
   padding: 10px;
 }
 
-@media (max-width: 1092px) {
+@media (max-width: 468px) {
+  .advantagesList ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5em;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
   .advantagesList ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5em;
     font-size: 14px;
+  }
+}
+
+.pages-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+
+@media (max-width: 1092px) {
+  .howitworks-con {
+    max-width: 85vw;
   }
 }

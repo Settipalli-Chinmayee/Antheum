@@ -26,9 +26,9 @@ const Card = ({ content_for_card, type }) => {
             <div className={cssCards} key={index}>
               <img src={img} alt={heading} />
               {no_of_cards === "four" && <p>{no}</p>}
-              <h2>{heading}</h2>
+              <h2 className="card-heading-one">{heading}</h2>
 
-              <p>{content}</p>
+              <p className="card-content-one">{content}</p>
             </div>
           );
         })}

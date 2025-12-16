@@ -4,12 +4,59 @@
   /* border: 1px solid red; */
   margin: 3em 0 0 0;
 }
+
+@media (max-width: 468px) {
+  .cards_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .cards_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .cards_section {
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 0fr); */
+    display: flex;
+    max-width: 60em;
+    gap: 3em;
+    justify-content: flex-start;
+  }
+}
+
 .cards_section_four {
   display: flex;
   justify-content: space-between;
   /* border: 1px solid red; */
   margin: 3em 0 0 0;
   gap: 2em;
+}
+
+@media (max-width: 468px) {
+  .cards_section_four {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .cards_section_four {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .cards_section_four {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex; */
+    /* max-width: 60em; */
+    gap: 3em;
+    justify-content: flex-start;
+  }
 }
 
 .card {
@@ -32,15 +79,13 @@
 
 .card p {
   line-height: 1.5;
-    color: gray;
-
+  color: gray;
 }
 
 .card:hover {
   border: 1px solid #e0e0e0;
   border-radius: 10px;
 }
-
 
 /* css for when the cards are four */
 .four_cards {
@@ -53,6 +98,8 @@
   cursor: context-menu;
   border: 1px solid transparent;
 }
+
+
 .four_cards img {
   width: 3em;
   height: 3em;
@@ -74,4 +121,35 @@
 .four_cards:hover {
   border: 1px solid #e0e0e0;
   border-radius: 10px;
+}
+
+@media (max-width: 468px) {
+  .card-heading-one {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .card-heading-one {
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .card-heading-one {
+    font-size: 24px;
+  }
+}
+@media (max-width: 468px) {
+  .card-content-one {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .card-content-one {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .card-content-one {
+    font-size: 16px;
+  }
 }
