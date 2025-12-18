@@ -21,7 +21,8 @@
 @media (max-width: 468px) {
   .main_content_page {
     /* margin-top: 20%; */
-    margin-top: 10%;
+    margin-top: 8%;
+    /* margin-top: 22%; */
     margin-left: 15px;
     margin-right: 15px;
   }
@@ -39,6 +40,7 @@
     margin-left: 15px;
     margin-right: 15px;
   }
+
 }
 
 .main_footer {

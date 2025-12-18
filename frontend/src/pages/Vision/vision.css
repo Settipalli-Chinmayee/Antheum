@@ -61,3 +61,82 @@
   padding: 10px;
   background-color: #f5f5f5;
 }
+
+
+@media (max-width: 468px) {
+  .vision-heading {
+    font-size: 26px;
+  }
+}
+@media (max-width: 768px) {
+  .vision-heading {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .vision-heading {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 468px) {
+  .vision-text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .vision-text {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .vision-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 468px) {
+  .vision-card-heading {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .vision-card-heading{
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .vision-card-heading{
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 468px) {
+  .vision-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .vision-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .vision-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex; */
+    max-width: 60em;
+    gap: 3em;
+    justify-content: flex-start;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .vision-wrapper {
+    margin-top: 6em;
+  }
+}

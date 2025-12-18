@@ -14,7 +14,7 @@ const FirstSection = () => {
     <>
       <MainPage>
         <div className="wrapper">
-          <Header />
+          {/* <Header /> */}
           <div className="first_section main_content_page">
             <span className="riskText">
               92% of enterprises face AI security risks

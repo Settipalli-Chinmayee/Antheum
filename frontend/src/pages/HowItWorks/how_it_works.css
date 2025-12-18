@@ -77,7 +77,25 @@
 }
 
 .img_section img {
-  width: 81.3em;
+  width: 73.3em;
   height: 21em;
   margin: 2.4em 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .howitworks-con {
+    margin-top: 5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .img_section img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.card-heading-one,
+.card-content-one {
+  margin-left: 10px;
 }

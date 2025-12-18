@@ -42,23 +42,28 @@
   }
 }
 
-.main-text {
+/* .main-text {
   width: 60%;
-}
+} */
 
-@media (max-width: 468px) {
+/* @media (max-width: 468px) {
   .main-text {
-    width: 25%;
+    width: 48%;
   }
-}
-@media (min-width: 468px) and (max-width: 768px) {
+} */
+/* @media (min-width: 468px) and (max-width: 768px) {
   .main-text {
     width: 80%;
   }
 }
 @media (min-width: 768px) and (max-width: 1092px) {
   .main-text {
-    width: 70%;
+    width: 60%;
+  }
+} */
+@media (min-width: 1092px) {
+  .main-text {
+    width: 60%;
   }
 }
 
@@ -173,6 +178,16 @@
   gap: 5em;
 }
 
+@media (max-width: 768px) {
+  .pages-content {
+    gap: 0em;
+  }
+}
+@media (min-width: 768px) and (max-width: 1094px) {
+  .pages-content {
+    gap: 3em;
+  }
+}
 @media (max-width: 1092px) {
   .howitworks-con {
     max-width: 85vw;

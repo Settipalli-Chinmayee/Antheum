@@ -22,8 +22,8 @@
 .navLinks ul li a {
   text-decoration: none;
   color: black;
-  display: inline-block; 
-  font-weight: 400; 
+  display: inline-block;
+  font-weight: 400;
   border-bottom: 1px solid transparent;
 }
 
@@ -95,9 +95,144 @@
 
 } */
 
+.close-img {
+  display: none;
+}
+
 /* active link */
 .navLinks ul li a.active {
   /* font-weight: 400;   */
   border-bottom: 1px solid gray;
- 
+}
+
+.contact-btn {
+  display: none;
+  background-color: gray;
+  color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media (max-width: 468px) {
+  .navLinks {
+    display: none;
+  }
+}
+@media (max-width: 468px) {
+  .navBar {
+    width: 100%;
+    padding: 0.8em;
+    position: relative;
+    z-index: 1001; /* header stays above overlay trigger */
+  }
+
+  .contact_btn {
+    display: none;
+  }
+
+  .logoCon {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* .navLinks {
+    display: none;
+    position: fixed;
+    inset: 0; 
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  } */
+
+  .navLinks {
+    display: none;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  }
+
+  .navLinks.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Menu content */
+  .navLinks ul {
+    background: white;
+    padding: 2em;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+    /* width: 80%; */
+    /* max-width: 320px; */
+    position: relative;
+    top: 2em;
+    width: 100%;
+    /* max-width: 380px; */
+    max-width: 400px;
+    margin: 10px auto;
+    justify-content: start;
+    height: 100%;
+  }
+
+  .navLinks ul li {
+    margin: 0;
+  }
+  .wrapper.menu-open {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .close-img {
+    position: absolute;
+    /* bottom: 21px; */
+    transform: translate(50%, 50%);
+    top: -1%;
+    left: 87%;
+    display: block;
+  }
+
+  .contact-btn.show {
+    display: block;
+  }
+
+  .header-content {
+    width: 100vw;
+    height: 91vh;
+    position: relative;
+    bottom: 38px;
+  }
+}
+
+/* 0.8em 4em 0.8em 0em */
+/* padding: 0.8em 2em; */
+
+@media (min-width: 768px) {
+  .menu-img {
+    display: none;
+  }
+  .navBar {
+    justify-content: flex-start;
+    gap: 1em;
+  }
+}
+@media (min-width: 1092px) {
+  .navBar {
+    justify-content: space-between;
+    /* gap: 1em; */
+  }
+}
+@media (min-width: 768px) and (max-width: 1092px) {
+  .menu-img {
+    display: none;
+  }
+  .navBar {
+    /* justify-content: flex-start; */
+    gap: 8em;
+  }
 }

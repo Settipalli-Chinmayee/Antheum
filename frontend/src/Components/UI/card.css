@@ -15,13 +15,14 @@
   .cards_section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 1.7em;
   }
 }
 @media (min-width: 768px) and (max-width: 1092px) {
   .cards_section {
-    /* display: grid; */
-    /* grid-template-columns: repeat(2, 0fr); */
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    /* display: flex; */
     max-width: 60em;
     gap: 3em;
     justify-content: flex-start;
@@ -36,16 +37,16 @@
   gap: 2em;
 }
 
-@media (max-width: 468px) {
+/* @media (max-width: 468px) {
   .cards_section_four {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-}
+} */
 @media (max-width: 768px) {
   .cards_section_four {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (min-width: 768px) and (max-width: 1092px) {
@@ -87,6 +88,15 @@
   border-radius: 10px;
 }
 
+@media (max-width: 768px) {
+  .card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: fit-content;
+
+  }
+}
+
 /* css for when the cards are four */
 .four_cards {
   /* border: 1px solid blue; */
@@ -99,6 +109,9 @@
   border: 1px solid transparent;
 }
 
+.four_cards p {
+  margin-left: 10px;
+}
 
 .four_cards img {
   width: 3em;
@@ -108,8 +121,24 @@
   padding: 11px;
   border-radius: 10px;
 }
+
+@media (max-width: 1092px) {
+  .four_cards {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: fit-content;
+
+  }
+}
+@media (max-width: 1092px) {
+  .four_cards img {
+    width: 38px;
+    height: 38px;
+  }
+}
+
 .four_cards h2 {
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
 }
 
 .four_cards p {
@@ -125,12 +154,12 @@
 
 @media (max-width: 468px) {
   .card-heading-one {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media (max-width: 768px) {
   .card-heading-one {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 @media (min-width: 768px) and (max-width: 1092px) {
